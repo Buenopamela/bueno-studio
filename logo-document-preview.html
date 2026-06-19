@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bueno Studio — Document Logos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Inter, sans-serif; background: #f1f5f9; padding: 48px 32px; color: #1e293b; }
+    h1 { font-size: 13px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #64748b; margin-bottom: 32px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 900px; }
+    .card { background: white; border-radius: 16px; padding: 40px; border: 1px solid #e2e8f0; }
+    .card h2 { font-size: 11px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; color: #94a3b8; margin-bottom: 24px; }
+    .logo-area { display: flex; align-items: center; justify-content: center; min-height: 80px; }
+    .dark-card { background: #0f172a; border-color: #1e293b; }
+    .dark-card h2 { color: #475569; }
+
+    /* Document preview */
+    .doc-preview { max-width: 900px; margin-top: 40px; }
+    .doc-preview h1 { margin-bottom: 20px; }
+    .document { background: white; border-radius: 16px; border: 1px solid #e2e8f0; padding: 48px 56px; }
+    .doc-header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid #e2e8f0; padding-bottom: 28px; margin-bottom: 32px; }
+    .doc-meta { text-align: right; font-size: 12px; color: #94a3b8; line-height: 1.8; }
+    .doc-title { font-size: 22px; font-weight: 700; color: #0f172a; margin-bottom: 6px; }
+    .doc-subtitle { font-size: 13px; color: #64748b; }
+    .doc-body { display: flex; flex-direction: column; gap: 12px; }
+    .doc-line { height: 10px; background: #f1f5f9; border-radius: 4px; }
+    .doc-line.short { width: 60%; }
+    .doc-line.med { width: 80%; }
+  </style>
+</head>
+<body>
+
+  <h1>Bueno Studio — Document Logos</h1>
+
+  <div class="grid">
+
+    <div class="card">
+      <h2>Document Logo — White Background</h2>
+      <div class="logo-area">
+        <img src="images/logo-document.svg" width="228" height="56" alt="Bueno Studio">
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Circle Icon — White Background</h2>
+      <div class="logo-area" style="gap: 24px; flex-wrap: wrap;">
+        <img src="images/logo-circle.svg" width="80" height="80" alt="Bueno Studio">
+        <img src="images/logo-circle.svg" width="56" height="56" alt="Bueno Studio">
+        <img src="images/logo-circle.svg" width="44" height="44" alt="Bueno Studio">
+        <img src="images/logo-circle.svg" width="32" height="32" alt="Bueno Studio">
+      </div>
+    </div>
+
+    <div class="card dark-card">
+      <h2>Document Logo — Dark Background</h2>
+      <div class="logo-area">
+        <img src="images/logo-document.svg" width="228" height="56" alt="Bueno Studio">
+      </div>
+    </div>
+
+    <div class="card dark-card">
+      <h2>Circle Icon — Dark Background</h2>
+      <div class="logo-area" style="gap: 24px; flex-wrap: wrap;">
+        <img src="images/logo-circle.svg" width="80" height="80" alt="Bueno Studio">
+        <img src="images/logo-circle.svg" width="56" height="56" alt="Bueno Studio">
+        <img src="images/logo-circle.svg" width="44" height="44" alt="Bueno Studio">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Document context preview -->
+  <div class="doc-preview">
+    <h1>Preview — Document Header Context</h1>
+    <div class="document">
+      <div class="doc-header">
+        <div>
+          <img src="images/logo-document.svg" width="200" height="50" alt="Bueno Studio" style="margin-bottom: 16px; display: block;">
+        </div>
+        <div class="doc-meta">
+          Fecha / Date: Marzo 2026<br>
+          Documento / Document #001<br>
+          bueno.studio
+        </div>
+      </div>
+      <div class="doc-title">Propuesta de Servicios</div>
+      <div class="doc-subtitle" style="margin-bottom: 28px;">Service Proposal — Web Design & Development</div>
+      <div class="doc-body">
+        <div class="doc-line"></div>
+        <div class="doc-line med"></div>
+        <div class="doc-line short"></div>
+        <div class="doc-line"></div>
+        <div class="doc-line med"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

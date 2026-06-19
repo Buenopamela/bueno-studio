@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Bueno Studio — Diseño web profesional para negocios y profesionales en Argentina y Canadá."
+    />
+    <meta property="og:title" content="Bueno Studio" />
+    <meta
+      property="og:description"
+      content="Llevamos tu negocio al mundo digital. Listos para vender."
+    />
+    <meta property="og:type" content="website" />
+    <title>Bueno Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="nav-container">
+        <a href="#" class="nav-logo" aria-label="Bueno Studio">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 200 44"
+            height="34"
+            aria-hidden="true"
+          >
+            <rect x="0" y="2" width="40" height="40" rx="9" fill="#6366F1" />
+            <g stroke="white" stroke-linecap="round" fill="none">
+              <line x1="12" y1="10" x2="12" y2="34" stroke-width="5.5" />
+              <path
+                d="M 12,10 Q 27,10 27,17 Q 27,24 12,24"
+                stroke-width="4.5"
+              />
+              <path
+                d="M 12,22 Q 30,22 30,28 Q 30,34 12,34"
+                stroke-width="4.5"
+              />
+            </g>
+            <text
+              x="52"
+              y="21"
+              font-family="Inter, -apple-system, sans-serif"
+              font-size="15"
+              font-weight="800"
+              fill="white"
+              letter-spacing="-0.3"
+            >
+              Bueno
+            </text>
+            <text
+              x="53"
+              y="34"
+              font-family="Inter, -apple-system, sans-serif"
+              font-size="10"
+              font-weight="500"
+              fill="rgba(255,255,255,0.55)"
+              letter-spacing="2.5"
+            >
+              STUDIO
+            </text>
+          </svg>
+        </a>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#services" class="nav-link" data-key="nav.services"
+            >Servicios</a
+          >
+          <a href="#portfolio" class="nav-link" data-key="nav.portfolio"
+            >Trabajos</a
+          >
+          <a href="#about" class="nav-link" data-key="nav.about">Nosotros</a>
+          <a href="#contact" class="nav-link" data-key="nav.contact"
+            >Contacto</a
+          >
+        </div>
+
+        <div class="nav-actions">
+          <div class="lang-toggle">
+            <button class="lang-btn active" id="btnEs" onclick="setLang('es')">
+              ES
+            </button>
+            <span class="lang-divider">|</span>
+            <button class="lang-btn" id="btnEn" onclick="setLang('en')">
+              EN
+            </button>
+          </div>
+          <a href="#contact" class="btn btn-primary nav-cta" data-key="nav.cta"
+            >Hablemos</a
+          >
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-container">
+        <p class="hero-tag" data-key="hero.tag">Argentina · Canadá</p>
+        <h1 class="hero-headline" data-key="hero.headline">
+          Llevamos tu negocio<br />al mundo digital.
+        </h1>
+        <p class="hero-sub" data-key="hero.sub">
+          Diseño web profesional para negocios y profesionales que quieren
+          vender más online.
+        </p>
+        <div class="hero-ctas">
+          <!-- TODO: Replace +549XXXXXXXXXX with your actual WhatsApp number -->
+          <a
+            href="https://wa.me/12368188312?text=Hola%21+Me+gustar%C3%ADa+saber+m%C3%A1s+sobre+los+servicios+de+Bueno+Studio."
+            class="btn btn-whatsapp"
+            target="_blank"
+            rel="noopener"
+            data-key="hero.cta1"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+            Hablemos por WhatsApp
+          </a>
+          <a href="#portfolio" class="btn btn-outline" data-key="hero.cta2"
+            >Ver trabajos</a
+          >
+        </div>
+      </div>
+      <div class="hero-pattern" aria-hidden="true"></div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-key="services.title">Servicios</h2>
+          <p data-key="services.sub">
+            Todo lo que necesitás para tener presencia digital y vender más.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+              </svg>
+            </div>
+            <h3 class="service-title" data-key="services.items.0.title">
+              Landing Pages
+            </h3>
+            <p class="service-desc" data-key="services.items.0.desc">
+              Páginas diseñadas para convertir visitas en clientes.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+              </svg>
+            </div>
+            <h3 class="service-title" data-key="services.items.1.title">
+              Catálogos Online
+            </h3>
+            <p class="service-desc" data-key="services.items.1.desc">
+              Mostrá tus productos de forma clara y profesional.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+              </svg>
+            </div>
+            <h3 class="service-title" data-key="services.items.2.title">
+              Portfolios
+            </h3>
+            <p class="service-desc" data-key="services.items.2.desc">
+              Tu mejor trabajo, presentado para que te elijan.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+                <path
+                  d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                />
+              </svg>
+            </div>
+            <h3 class="service-title" data-key="services.items.3.title">
+              Sitios Web
+            </h3>
+            <p class="service-desc" data-key="services.items.3.desc">
+              Presencia online completa para tu negocio.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <path d="M16 10a4 4 0 01-8 0" />
+              </svg>
+            </div>
+            <h3 class="service-title" data-key="services.items.4.title">
+              Tiendas Online
+            </h3>
+            <p class="service-desc" data-key="services.items.4.desc">
+              Empezá a vender en internet sin complicaciones.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-header section-header--light">
+          <h2 data-key="portfolio.title">Trabajos</h2>
+          <p data-key="portfolio.sub">Proyectos reales para negocios reales.</p>
+        </div>
+        <div class="portfolio-grid">
+          <!-- TODO: Replace href="#" with actual project URL -->
+          <!-- TODO: Replace gradient bg with: style="background-image: url('images/relojes-leon.jpg')" -->
+          <div class="portfolio-card">
+            <div class="portfolio-image portfolio-image--1"></div>
+            <div class="portfolio-info">
+              <h3 data-key="portfolio.projects.0.name">Relojes León</h3>
+              <p data-key="portfolio.projects.0.desc">
+                Catálogo digital para relojería, con productos organizados y
+                fácil navegación móvil.
+              </p>
+              <a
+                href="https://catalogo-relojes-leon.netlify.app/"
+                class="portfolio-link"
+                data-key="portfolio.viewProject"
+                >Ver proyecto →</a
+              >
+            </div>
+          </div>
+
+          <!-- TODO: Replace href="#" with actual project URL -->
+          <div class="portfolio-card">
+            <div class="portfolio-image portfolio-image--2"></div>
+            <div class="portfolio-info">
+              <h3 data-key="portfolio.projects.1.name">Candelaria Ferreyro</h3>
+              <p data-key="portfolio.projects.1.desc">
+                Presentación profesional de servicios contables para captar
+                clientes online.
+              </p>
+              <a
+                href="#"
+                class="portfolio-link"
+                data-key="portfolio.viewProject"
+                >Ver proyecto →</a
+              >
+            </div>
+          </div>
+
+          <!-- TODO: Replace href="#" with actual project URL -->
+          <div class="portfolio-card">
+            <div class="portfolio-image portfolio-image--3"></div>
+            <div class="portfolio-info">
+              <h3 data-key="portfolio.projects.2.name">Quinta El Paraíso</h3>
+              <p data-key="portfolio.projects.2.desc">
+                Sitio web completo para espacio de eventos, con galería, mapa y
+                contacto directo.
+              </p>
+              <a
+                href="https://quinta-el-paraiso-de-leo.netlify.app/"
+                class="portfolio-link"
+                data-key="portfolio.viewProject"
+                >Ver proyecto →</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <h2 data-key="about.title">Bueno Studio</h2>
+          <p class="about-body" data-key="about.body">
+            Ayudamos a negocios y profesionales a dar el salto digital. Nos
+            especializamos en soluciones web prácticas, rápidas de implementar y
+            orientadas a resultados — más ventas, más clientes, más presencia.
+          </p>
+          <p class="about-body" data-key="about.body2">
+            Operamos en Argentina y Canadá, entendiendo las necesidades de cada
+            mercado.
+          </p>
+          <p class="about-tagline" data-key="about.tagline">
+            "Del mundo analógico al digital, sin complicaciones."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-content">
+          <h2 data-key="contact.title">¿Listo para empezar?</h2>
+          <p data-key="contact.sub">
+            Contanos sobre tu proyecto y te respondemos rápido.
+          </p>
+          <div class="contact-actions">
+            <!-- TODO: Replace +549XXXXXXXXXX with your actual WhatsApp number -->
+            <a
+              href="https://wa.me/12368188312?text=Hola%21+Me+gustar%C3%ADa+saber+m%C3%A1s+sobre+los+servicios+de+Bueno+Studio."
+              class="btn btn-whatsapp btn-lg"
+              target="_blank"
+              rel="noopener"
+              data-key="contact.whatsapp"
+            >
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                />
+              </svg>
+              Escribinos por WhatsApp
+            </a>
+            <!-- TODO: Replace with your actual email -->
+            <a
+              href="mailto:hola@buenostudio.com"
+              class="btn btn-outline-light btn-lg"
+              data-key="contact.email"
+            >
+              Mandanos un email
+            </a>
+          </div>
+          <p class="contact-note" data-key="contact.note">Argentina · Canadá</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <a href="#" class="footer-logo" aria-label="Bueno Studio">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 44"
+              height="28"
+              aria-hidden="true"
+            >
+              <rect x="0" y="2" width="40" height="40" rx="9" fill="#6366F1" />
+              <g stroke="white" stroke-linecap="round" fill="none">
+                <line x1="12" y1="10" x2="12" y2="34" stroke-width="5.5" />
+                <path
+                  d="M 12,10 Q 27,10 27,17 Q 27,24 12,24"
+                  stroke-width="4.5"
+                />
+                <path
+                  d="M 12,22 Q 30,22 30,28 Q 30,34 12,34"
+                  stroke-width="4.5"
+                />
+              </g>
+              <text
+                x="52"
+                y="21"
+                font-family="Inter, -apple-system, sans-serif"
+                font-size="15"
+                font-weight="800"
+                fill="rgba(255,255,255,0.5)"
+                letter-spacing="-0.3"
+              >
+                Bueno
+              </text>
+              <text
+                x="53"
+                y="34"
+                font-family="Inter, -apple-system, sans-serif"
+                font-size="10"
+                font-weight="500"
+                fill="rgba(255,255,255,0.25)"
+                letter-spacing="2.5"
+              >
+                STUDIO
+              </text>
+            </svg>
+          </a>
+          <p class="footer-copy" data-key="footer.copy">
+            © 2026 Bueno Studio. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <!-- TODO: Replace +549XXXXXXXXXX with your actual WhatsApp number -->
+    <a
+      href="https://wa.me/12368188312?text=Hola%21+Me+gustar%C3%ADa+saber+m%C3%A1s+sobre+los+servicios+de+Bueno+Studio."
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+      aria-label="WhatsApp"
+    >
+      <svg
+        width="28"
+        height="28"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+        />
+      </svg>
+    </a>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

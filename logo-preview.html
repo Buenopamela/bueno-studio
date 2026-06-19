@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bueno Studio — Logo Concepts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #F1F5F9;
+      color: #1E293B;
+      padding: 3rem 2rem;
+    }
+    h1 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #64748B;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 2.5rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #94A3B8;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1.25rem;
+    }
+    .logo-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+    }
+    .logo-box {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      min-width: 240px;
+    }
+    .logo-box.dark {
+      background: #0F172A;
+    }
+    .logo-box.accent {
+      background: #6366F1;
+    }
+    .concept-title {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: #94A3B8;
+      margin-bottom: 0.75rem;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #E2E8F0;
+      margin: 3rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bueno Studio — Logo Concepts</h1>
+
+  <!-- ============================================================
+       CONCEPT A — Geometric B mark + Stacked wordmark
+       Clean geometric B as strokes on indigo rounded square
+       ============================================================ -->
+  <div class="section">
+    <p class="concept-title">Concept A — Geometric mark + stacked wordmark</p>
+    <div class="logo-row">
+
+      <!-- Light background -->
+      <div class="logo-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44" width="200" height="44" role="img" aria-label="Bueno Studio">
+          <!-- Icon: indigo rounded square -->
+          <rect x="0" y="2" width="40" height="40" rx="9" fill="#6366F1"/>
+          <!-- Geometric B: spine + upper bowl + lower bowl (strokes) -->
+          <g stroke="white" stroke-linecap="round" fill="none">
+            <line x1="12" y1="10" x2="12" y2="34" stroke-width="5.5"/>
+            <path d="M 12,10 Q 27,10 27,17 Q 27,24 12,24" stroke-width="4.5"/>
+            <path d="M 12,22 Q 30,22 30,28 Q 30,34 12,34" stroke-width="4.5"/>
+          </g>
+          <!-- Wordmark: stacked -->
+          <text x="52" y="20" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Bueno</text>
+          <text x="53" y="33" font-family="Inter, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#64748B" letter-spacing="2.5">STUDIO</text>
+        </svg>
+      </div>
+
+      <!-- Dark background -->
+      <div class="logo-box dark">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44" width="200" height="44" role="img" aria-label="Bueno Studio">
+          <rect x="0" y="2" width="40" height="40" rx="9" fill="#6366F1"/>
+          <g stroke="white" stroke-linecap="round" fill="none">
+            <line x1="12" y1="10" x2="12" y2="34" stroke-width="5.5"/>
+            <path d="M 12,10 Q 27,10 27,17 Q 27,24 12,24" stroke-width="4.5"/>
+            <path d="M 12,22 Q 30,22 30,28 Q 30,34 12,34" stroke-width="4.5"/>
+          </g>
+          <text x="52" y="20" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="white" letter-spacing="-0.3">Bueno</text>
+          <text x="53" y="33" font-family="Inter, -apple-system, sans-serif" font-size="10" font-weight="500" fill="rgba(255,255,255,0.55)" letter-spacing="2.5">STUDIO</text>
+        </svg>
+      </div>
+
+      <!-- Icon only -->
+      <div class="logo-box" style="min-width: auto; padding: 1.5rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44" role="img" aria-label="B">
+          <rect x="0" y="2" width="40" height="40" rx="9" fill="#6366F1"/>
+          <g stroke="white" stroke-linecap="round" fill="none">
+            <line x1="12" y1="10" x2="12" y2="34" stroke-width="5.5"/>
+            <path d="M 12,10 Q 27,10 27,17 Q 27,24 12,24" stroke-width="4.5"/>
+            <path d="M 12,22 Q 30,22 30,28 Q 30,34 12,34" stroke-width="4.5"/>
+          </g>
+        </svg>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ============================================================
+       CONCEPT B — Bold monogram BS + horizontal wordmark
+       Two-letter mark, more compact
+       ============================================================ -->
+  <div class="section">
+    <p class="concept-title">Concept B — Monogram BS + horizontal wordmark</p>
+    <div class="logo-row">
+
+      <!-- Light background -->
+      <div class="logo-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" width="220" height="44" role="img" aria-label="Bueno Studio">
+          <!-- Icon: dark rounded square with BS -->
+          <rect x="0" y="2" width="40" height="40" rx="9" fill="#0F172A"/>
+          <text x="20" y="28" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-0.5">BS</text>
+          <!-- Accent dot -->
+          <circle cx="32" cy="12" r="5" fill="#6366F1"/>
+          <!-- Wordmark: horizontal -->
+          <text x="52" y="27" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#0F172A" letter-spacing="-0.4">Bueno Studio</text>
+        </svg>
+      </div>
+
+      <!-- Dark background -->
+      <div class="logo-box dark">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" width="220" height="44" role="img" aria-label="Bueno Studio">
+          <rect x="0" y="2" width="40" height="40" rx="9" fill="rgba(255,255,255,0.1)"/>
+          <text x="20" y="28" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-0.5">BS</text>
+          <circle cx="32" cy="12" r="5" fill="#6366F1"/>
+          <text x="52" y="27" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="800" fill="white" letter-spacing="-0.4">Bueno Studio</text>
+        </svg>
+      </div>
+
+      <!-- Icon only -->
+      <div class="logo-box" style="min-width: auto; padding: 1.5rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44" role="img" aria-label="BS">
+          <rect x="2" y="2" width="40" height="40" rx="9" fill="#0F172A"/>
+          <text x="22" y="30" font-family="Inter, -apple-system, sans-serif" font-size="17" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-0.5">BS</text>
+          <circle cx="36" cy="10" r="6" fill="#6366F1"/>
+        </svg>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ============================================================
+       CONCEPT C — Wordmark only, no icon
+       Clean typographic logo with accent underline
+       ============================================================ -->
+  <div class="section">
+    <p class="concept-title">Concept C — Typographic wordmark with accent</p>
+    <div class="logo-row">
+
+      <!-- Light background -->
+      <div class="logo-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" width="220" height="44" role="img" aria-label="Bueno Studio">
+          <!-- Wordmark -->
+          <text x="0" y="22" font-family="Inter, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#0F172A" letter-spacing="-0.5">Bueno</text>
+          <text x="104" y="22" font-family="Inter, -apple-system, sans-serif" font-size="18" font-weight="400" fill="#0F172A" letter-spacing="-0.3">Studio</text>
+          <!-- Accent underline under "Bueno" -->
+          <rect x="0" y="28" width="88" height="3" rx="1.5" fill="#6366F1"/>
+          <!-- Tagline -->
+          <text x="0" y="40" font-family="Inter, -apple-system, sans-serif" font-size="9" font-weight="500" fill="#94A3B8" letter-spacing="2">DIGITAL · ARG · CAN</text>
+        </svg>
+      </div>
+
+      <!-- Dark background -->
+      <div class="logo-box dark">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" width="220" height="44" role="img" aria-label="Bueno Studio">
+          <text x="0" y="22" font-family="Inter, -apple-system, sans-serif" font-size="18" font-weight="800" fill="white" letter-spacing="-0.5">Bueno</text>
+          <text x="104" y="22" font-family="Inter, -apple-system, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.7)" letter-spacing="-0.3">Studio</text>
+          <rect x="0" y="28" width="88" height="3" rx="1.5" fill="#6366F1"/>
+          <text x="0" y="40" font-family="Inter, -apple-system, sans-serif" font-size="9" font-weight="500" fill="rgba(255,255,255,0.3)" letter-spacing="2">DIGITAL · ARG · CAN</text>
+        </svg>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ============================================================
+       CONCEPT D — Bridge/slash mark
+       Two squares connected, referencing analog→digital bridge
+       ============================================================ -->
+  <div class="section">
+    <p class="concept-title">Concept D — Bridge mark (analog → digital)</p>
+    <div class="logo-row">
+
+      <!-- Light background -->
+      <div class="logo-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 44" width="210" height="44" role="img" aria-label="Bueno Studio">
+          <!-- Icon: two squares connected by a line (bridge concept) -->
+          <!-- Left square: solid (analog) -->
+          <rect x="0" y="9" width="15" height="26" rx="3" fill="#0F172A"/>
+          <!-- Bridge line -->
+          <rect x="14" y="20" width="14" height="4" rx="2" fill="#6366F1"/>
+          <!-- Right square: outlined/digital -->
+          <rect x="27" y="9" width="15" height="26" rx="3" fill="#6366F1"/>
+          <!-- Arrow inside right square -->
+          <path d="M 31,19 L 38,22 L 31,25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <!-- Wordmark -->
+          <text x="54" y="20" font-family="Inter, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Bueno</text>
+          <text x="55" y="33" font-family="Inter, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#64748B" letter-spacing="2.5">STUDIO</text>
+        </svg>
+      </div>
+
+      <!-- Dark background -->
+      <div class="logo-box dark">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 44" width="210" height="44" role="img" aria-label="Bueno Studio">
+          <rect x="0" y="9" width="15" height="26" rx="3" fill="rgba(255,255,255,0.15)"/>
+          <rect x="14" y="20" width="14" height="4" rx="2" fill="#6366F1"/>
+          <rect x="27" y="9" width="15" height="26" rx="3" fill="#6366F1"/>
+          <path d="M 31,19 L 38,22 L 31,25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <text x="54" y="20" font-family="Inter, -apple-system, sans-serif" font-size="14" font-weight="800" fill="white" letter-spacing="-0.3">Bueno</text>
+          <text x="55" y="33" font-family="Inter, -apple-system, sans-serif" font-size="10" font-weight="500" fill="rgba(255,255,255,0.55)" letter-spacing="2.5">STUDIO</text>
+        </svg>
+      </div>
+
+      <!-- Icon only -->
+      <div class="logo-box" style="min-width: auto; padding: 1.5rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 44" width="46" height="44" role="img" aria-label="Bueno Studio mark">
+          <rect x="0" y="9" width="15" height="26" rx="3" fill="#0F172A"/>
+          <rect x="14" y="20" width="14" height="4" rx="2" fill="#6366F1"/>
+          <rect x="27" y="9" width="15" height="26" rx="3" fill="#6366F1"/>
+          <path d="M 31,19 L 38,22 L 31,25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Usage context note -->
+  <p style="margin-top: 3rem; font-size: 0.875rem; color: #94A3B8; line-height: 1.7;">
+    Each concept shown on: white background · dark background (#0F172A) · icon only (for favicon/social)<br>
+    Pick your favorite — or describe what you want to change — and I'll finalize it and apply it to the site.
+  </p>
+
+</body>
+</html>
