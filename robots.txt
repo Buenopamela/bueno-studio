@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bueno-studio.netlify.app/sitemap.xml
