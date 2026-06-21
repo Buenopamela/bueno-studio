@@ -503,7 +503,7 @@ a {
 }
 
 .portfolio-image--1 {
-  background-image: url("../images/relojes_leon_thumbnail.png");
+  background-image: url("../images/relojes_leon_thumbnail.webp");
 }
 
 .portfolio-image--2 {
@@ -511,7 +511,7 @@ a {
 }
 
 .portfolio-image--3 {
-  background-image: url("../images/quinta_thumbnail.png");
+  background-image: url("../images/quinta_thumbnail.webp");
   background-position: center top;
 }
 
