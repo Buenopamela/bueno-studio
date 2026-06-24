@@ -503,7 +503,7 @@ a {
 }
 
 .portfolio-image--1 {
-  background-image: url("../images/relojes_leon_thumbnail.webp");
+  background-image: url("../images/juvetotecno_thumbnail.jpg");
 }
 
 .portfolio-image--2 {
@@ -513,6 +513,10 @@ a {
 .portfolio-image--3 {
   background-image: url("../images/quinta_thumbnail.webp");
   background-position: center top;
+}
+
+.portfolio-image--4 {
+  background-image: url("../images/vancouver_pet_services_thumbnail.jpg");
 }
 
 .portfolio-info {

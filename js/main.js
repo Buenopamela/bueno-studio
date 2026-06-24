@@ -39,9 +39,9 @@ const translations = {
       viewProject: "Ver proyecto →",
       projects: [
         {
-          name: "Relojes León",
-          category: "Catálogo Online",
-          desc: "Catálogo digital para relojería, con productos organizados y fácil navegación móvil."
+          name: "Juvetotecno",
+          category: "Tienda Online",
+          desc: "Tienda online de accesorios para celulares: fundas, vidrios templados, coleccionables y más, con envíos a todo el país."
         },
         {
           name: "Candelaria Ferreyro",
@@ -52,6 +52,11 @@ const translations = {
           name: "Quinta El Paraíso",
           category: "Sitio Web",
           desc: "Sitio web completo para espacio de eventos, con galería y contacto directo."
+        },
+        {
+          name: "Vancouver Pet Services",
+          category: "Plataforma Web",
+          desc: "Directorio online de servicios para mascotas en Vancouver, BC — paseadores, peluquerías y cuidadores, organizados por barrio."
         }
       ]
     },
@@ -105,9 +110,9 @@ const translations = {
       viewProject: "View project →",
       projects: [
         {
-          name: "Relojes León",
-          category: "Online Catalog",
-          desc: "Digital catalog for a watch store, with organized products and smooth mobile navigation."
+          name: "Juvetotecno",
+          category: "Online Store",
+          desc: "Online store for phone accessories: cases, tempered glass, collectibles, and more, with nationwide shipping."
         },
         {
           name: "Candelaria Ferreyro",
@@ -118,6 +123,11 @@ const translations = {
           name: "Quinta El Paraíso",
           category: "Website",
           desc: "Full website for an events venue, with gallery and direct contact."
+        },
+        {
+          name: "Vancouver Pet Services",
+          category: "Web Platform",
+          desc: "Online directory connecting pet owners in Vancouver, BC with trusted dog walkers, groomers, and sitters by neighbourhood."
         }
       ]
     },
