@@ -87,15 +87,15 @@ const translations = {
       cta: "Let's Talk"
     },
     hero: {
-      tag: "Argentina · Canada",
-      headline: "We bring your business<br>online. Ready to sell.",
-      sub: "Professional web design for businesses and professionals who want to grow their online presence.",
-      cta1: "Contact via WhatsApp",
+      tag: "Vancouver, BC · Web Design & Growth",
+      headline: "Websites that bring<br>you customers.",
+      sub: "Professional web design and SEO for small businesses and independent professionals — built to help you sell more online.",
+      cta1: "Message us on WhatsApp",
       cta2: "See our work"
     },
     services: {
       title: "Services",
-      sub: "Everything you need to establish your digital presence and sell more.",
+      sub: "Everything you need to build an online presence and grow your sales.",
       items: [
         { title: "Landing Pages", desc: "Pages designed to turn visitors into clients." },
         { title: "Online Catalogs", desc: "Showcase your products clearly and professionally." },
@@ -133,16 +133,16 @@ const translations = {
     },
     about: {
       title: "Bueno Studio",
-      body: "We help businesses and professionals make the leap into the digital world. We specialize in practical web solutions that are fast to implement and results-driven — more sales, more clients, more presence.",
-      body2: "We operate in Argentina and Canada, understanding the needs of each market.",
-      tagline: '"From analog to digital, without the complexity."'
+      body: "We help small businesses and independent professionals make the leap online. We specialize in practical, fast-to-launch web solutions focused on results — more sales, more clients, more visibility.",
+      body2: "Based in Vancouver, BC, and working with clients across North America and Latin America — we understand what it takes for a small business to stand out online.",
+      tagline: '"Going digital, made simple."'
     },
     contact: {
-      title: "Ready to start?",
-      sub: "Tell us about your project and we'll get back to you quickly.",
-      whatsapp: "Contact via WhatsApp",
+      title: "Ready to grow your business online?",
+      sub: "Tell us about your project — we'll get back to you fast.",
+      whatsapp: "Message us on WhatsApp",
       email: "Send us an email",
-      note: "Argentina · Canada"
+      note: "Vancouver, BC"
     },
     footer: {
       copy: "© 2026 Bueno Studio. All rights reserved."
@@ -228,5 +228,8 @@ navMenu.querySelectorAll('.nav-link').forEach(function(link) {
 
 // ============================================
 // INIT
+// Use the page's own declared language (set via <html lang="...">)
+// instead of always defaulting to Spanish — critical so the static
+// English page never gets overwritten by JS on load.
 // ============================================
-applyTranslations('es');
+applyTranslations(document.documentElement.lang || "es");
