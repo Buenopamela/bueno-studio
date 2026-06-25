@@ -16,7 +16,7 @@ const translations = {
       cta: "Hablemos"
     },
     hero: {
-      tag: "Argentina · Canadá",
+      tag: "Diseño Web · SEO · Crecimiento",
       headline: "Llevamos tu negocio<br>al mundo digital.",
       sub: "Diseño web profesional para negocios y profesionales que quieren vender más online.",
       cta1: "Hablemos por WhatsApp",
@@ -63,7 +63,7 @@ const translations = {
     about: {
       title: "Bueno Studio",
       body: "Ayudamos a negocios y profesionales a dar el salto digital. Nos especializamos en soluciones web prácticas, rápidas de implementar y orientadas a resultados — más ventas, más clientes, más presencia.",
-      body2: "Operamos en Argentina y Canadá, entendiendo las necesidades de cada mercado.",
+      body2: "Trabajamos con comercios y profesionales independientes que buscan vender más y posicionarse mejor online.",
       tagline: '"Del mundo analógico al digital, sin complicaciones."'
     },
     contact: {
@@ -71,7 +71,7 @@ const translations = {
       sub: "Contanos sobre tu proyecto y te respondemos rápido.",
       whatsapp: "Escribinos por WhatsApp",
       email: "Mandanos un email",
-      note: "Argentina · Canadá"
+      note: "Atención personalizada, sin vueltas."
     },
     footer: {
       copy: "© 2026 Bueno Studio. Todos los derechos reservados."
