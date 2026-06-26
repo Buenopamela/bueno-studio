@@ -372,6 +372,27 @@ a {
   background-size: 32px 32px;
 }
 
+/* Split variant — text + visual side by side (case study pages) */
+.hero--split .hero-container {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.hero-visual img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .hero--split .hero-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
 /* ============================================
    SECTION HEADERS
    ============================================ */
